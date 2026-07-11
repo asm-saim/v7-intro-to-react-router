@@ -7,7 +7,7 @@ const User2 = ({ susDataLoad }) => {
     console.log(data)
     return (
         <div>
-            <h1>This is user 2 using Suspense to load data</h1>
+            <h5>This is user 2 using Suspense to load data</h5>
         </div>
     );
 };
