@@ -59,6 +59,10 @@ const router = createBrowserRouter([
   {
     path: '/blogs',
     Component: App
+  },
+  {
+    path: "*",
+    element: <h1>Not Found: 404 error</h1>
   }
 ])
 
